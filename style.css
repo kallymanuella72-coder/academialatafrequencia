@@ -144,8 +144,8 @@ h1, h2, h3, .author-name {
 }
 
 .gold-text {
-    color: #ffd700;
-    text-shadow: 0 0 10px rgba(255, 215, 0, 0.9), 0 0 20px rgba(255, 140, 0, 0.7);
+    color: #dfba6b;
+    text-shadow: 0 0 10px rgba(223, 186, 107, 0.7), 0 0 20px rgba(184, 134, 11, 0.5);
 }
 
 .glass-card {
@@ -180,8 +180,8 @@ h1, h2, h3, .author-name {
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 2rem;
-    color: #ffd700;
-    text-shadow: 0 0 10px rgba(255, 215, 0, 1), 0 0 20px rgba(255, 140, 0, 0.8), 0 0 40px rgba(255, 69, 0, 0.6);
+    color: #dfba6b;
+    text-shadow: 0 0 10px rgba(223, 186, 107, 0.8), 0 0 20px rgba(184, 134, 11, 0.6), 0 0 35px rgba(218, 165, 32, 0.4);
     letter-spacing: 1px;
 }
 
@@ -308,7 +308,7 @@ h1, h2, h3, .author-name {
 .hero {
     min-height: 100vh;
     position: relative;
-    padding: 12vh 0 5vh;
+    padding: 8vh 0 4vh;
     background: url('hero-bg.jpg') center center/cover no-repeat;
     overflow: hidden;
 }
@@ -349,16 +349,16 @@ h1, h2, h3, .author-name {
     height: auto;
     margin-bottom: 25px;
     border-radius: 50%;
-    box-shadow: 0 0 30px rgba(255, 215, 0, 0.4), 0 0 60px rgba(255, 140, 0, 0.2);
-    filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.8));
-    border: 2px solid rgba(255, 215, 0, 0.3);
+    box-shadow: 0 0 30px rgba(223, 186, 107, 0.3), 0 0 60px rgba(184, 134, 11, 0.15);
+    filter: drop-shadow(0 0 10px rgba(223, 186, 107, 0.6));
+    border: 2px solid rgba(223, 186, 107, 0.3);
 }
 
 .main-title {
     font-family: var(--font-heading);
     font-size: 3.2rem;
-    color: #ffd700;
-    text-shadow: 0 0 15px rgba(255, 215, 0, 1), 0 0 30px rgba(255, 140, 0, 0.8), 0 0 50px rgba(255, 69, 0, 0.6);
+    color: #dfba6b;
+    text-shadow: 0 0 15px rgba(223, 186, 107, 0.8), 0 0 30px rgba(218, 165, 32, 0.6), 0 0 45px rgba(184, 134, 11, 0.4);
     margin: 0 0 5px;
     line-height: 1.1;
 }
@@ -547,7 +547,7 @@ h1, h2, h3, .author-name {
 .about-section {
     position: relative;
     overflow: hidden;
-    padding: 100px 0;
+    padding: 60px 0;
 
 }
 
@@ -575,7 +575,7 @@ h1, h2, h3, .author-name {
 .purpose-section {
     position: relative;
     overflow: hidden;
-    padding: 100px 0;
+    padding: 60px 0;
     text-align: center;
     background: linear-gradient(to bottom, var(--bg-darker), var(--bg-dark));
 }
@@ -661,7 +661,7 @@ h1, h2, h3, .author-name {
 .target-audience {
     position: relative;
     overflow: hidden;
-    padding: 100px 0;
+    padding: 60px 0;
     background: radial-gradient(circle at right, rgba(89, 46, 131, 0.2), var(--bg-dark));
 }
 
@@ -722,7 +722,7 @@ h1, h2, h3, .author-name {
 
 /* DELIVERABLES SECTION */
 .deliverables-section {
-    padding: 100px 0;
+    padding: 60px 0;
 
 }
 
@@ -756,7 +756,7 @@ h1, h2, h3, .author-name {
 
 /* TESTIMONIALS */
 .testimonials-section {
-    padding: 80px 0;
+    padding: 50px 0;
 }
 
 .hero {
@@ -850,7 +850,7 @@ h1, h2, h3, .author-name {
 
 /* AUTHOR SECTION */
 .about-author {
-    padding: 100px 0;
+    padding: 60px 0;
 
 }
 
@@ -874,7 +874,7 @@ h1, h2, h3, .author-name {
 
 /* PRICING SECTION */
 .pricing-section {
-    padding: 100px 0;
+    padding: 60px 0;
     text-align: center;
 }
 
@@ -952,7 +952,7 @@ h1, h2, h3, .author-name {
 
 /* GUARANTEE BOX */
 .guarantee-section {
-    padding: 50px 0 100px;
+    padding: 40px 0 60px;
 }
 
 .guarantee-box {
@@ -977,7 +977,7 @@ h1, h2, h3, .author-name {
 /* FAQ SECTION */
 .faq-section {
     position: relative;
-    padding: 100px 0;
+    padding: 60px 0;
 
 }
 
@@ -1036,7 +1036,7 @@ h1, h2, h3, .author-name {
 /* SOCIAL SECTION */
 .social-section {
     position: relative;
-    padding: 80px 0;
+    padding: 50px 0;
     text-align: center;
     background: var(--bg-darker);
 }
@@ -1082,7 +1082,7 @@ h1, h2, h3, .author-name {
 
 /* FOOTER CTA */
 .footer-cta {
-    padding: 120px 0 80px;
+    padding: 80px 0 50px;
     text-align: center;
     background: linear-gradient(to top, var(--bg-darker), var(--bg-dark));
     position: relative;
@@ -1131,8 +1131,8 @@ footer {
     .audience-grid, .author-grid { grid-template-columns: 1fr; gap: 30px; }
     .image-placeholder { height: 300px; }
     .hero-image { max-width: 250px; margin: 0 auto; display: block; }
-    .hero { padding-top: 50px; padding-bottom: 30px; }
-    section, .about-author, .deliverables-section, .pricing-section { padding: 60px 0 !important; }
+    .hero { padding-top: 30px; padding-bottom: 20px; }
+    section, .about-author, .deliverables-section, .pricing-section { padding: 40px 0 !important; }
     .guarantee-list { flex-direction: column; gap: 10px; align-items: center; }
     .highlight-card { transform: scale(1); }
     .highlight-card:hover { transform: scale(1); }
