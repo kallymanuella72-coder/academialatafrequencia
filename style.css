@@ -86,6 +86,7 @@ strong, b {
     align-items: center;
     padding: 20px 0;
     margin: 20px 0;
+    mix-blend-mode: screen;
 }
 
 .chakra-divider {
@@ -95,7 +96,6 @@ strong, b {
     margin: 0;
     object-fit: cover;
     object-position: center;
-    mix-blend-mode: screen;
     filter: contrast(3) brightness(0.8);
     -webkit-mask-image: linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%), linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%);
     -webkit-mask-composite: source-in;
@@ -1210,6 +1210,3 @@ html {
     100% { background-position: 400px 400px, 425px 425px; }
 }
 
-.chakra-divider {
-    mix-blend-mode: screen;
-}
