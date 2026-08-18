@@ -144,7 +144,7 @@ h1, h2, h3, .author-name {
 }
 
 .gold-text {
-    color: #dfba6b;
+    color: #f6d365;
 }
 
 .glass-card {
@@ -179,7 +179,7 @@ h1, h2, h3, .author-name {
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 2rem;
-    color: #dfba6b;
+    color: #f6d365;
     letter-spacing: 1px;
 }
 
@@ -357,21 +357,7 @@ h1, h2, h3, .author-name {
     font-size: 3.2rem;
     margin: 0 0 5px;
     line-height: 1.1;
-    
-    /* Brilho animado de vidro */
-    background: linear-gradient(
-        120deg,
-        #dfba6b 30%,
-        #ffffff 45%,
-        #ffffff 55%,
-        #dfba6b 70%
-    );
-    background-size: 200% auto;
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: shine 4s linear infinite;
+    color: #f6d365;
 }
 
 .author {
