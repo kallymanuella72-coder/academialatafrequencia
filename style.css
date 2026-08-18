@@ -276,8 +276,8 @@ h1, h2, h3, .author-name {
     content: '';
     position: absolute;
     bottom: 0; left: 0; right: 0;
-    height: 150px;
-    z-index: 10;
+    height: 50px;
+    z-index: 0;
     pointer-events: none;
 }
 
@@ -285,8 +285,8 @@ h1, h2, h3, .author-name {
     content: '';
     position: absolute;
     top: 0; left: 0; right: 0;
-    height: 150px;
-    z-index: 10;
+    height: 50px;
+    z-index: 0;
     pointer-events: none;
 }
 
