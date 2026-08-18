@@ -345,11 +345,13 @@ h1, h2, h3, .author-name {
 }
 
 .hero-logo {
-    width: 65px;
+    width: 130px;
     height: auto;
     margin-bottom: 25px;
     border-radius: 50%;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    box-shadow: 0 0 30px rgba(255, 215, 0, 0.4), 0 0 60px rgba(255, 140, 0, 0.2);
+    filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.8));
+    border: 2px solid rgba(255, 215, 0, 0.3);
 }
 
 .main-title {
