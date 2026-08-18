@@ -144,7 +144,8 @@ h1, h2, h3, .author-name {
 }
 
 .gold-text {
-    color: var(--gold);
+    color: #e5b967;
+    text-shadow: 0 0 12px rgba(229, 185, 103, 0.5);
 }
 
 .glass-card {
@@ -179,7 +180,9 @@ h1, h2, h3, .author-name {
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--rose-gold);
+    color: #e5b967;
+    text-shadow: 0 0 15px rgba(229, 185, 103, 0.4), 0 0 30px rgba(229, 185, 103, 0.15);
+    letter-spacing: 1px;
 }
 
 .text-center { text-align: center; }
@@ -352,9 +355,10 @@ h1, h2, h3, .author-name {
 .main-title {
     font-family: var(--font-heading);
     font-size: 3.2rem;
-    background: linear-gradient(to right, var(--gold), var(--rose-gold));
+    background: linear-gradient(to right, #ffd700, #e5b967, var(--rose-gold));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 15px rgba(229, 185, 103, 0.6));
     margin: 0 0 5px;
     line-height: 1.1;
     /* text-shadow doesn't work well with background-clip text, so we rely on the dark overlay */
