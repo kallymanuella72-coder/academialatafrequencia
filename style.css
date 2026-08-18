@@ -145,7 +145,6 @@ h1, h2, h3, .author-name {
 
 .gold-text {
     color: #dfba6b;
-    text-shadow: 0 0 10px rgba(223, 186, 107, 0.7), 0 0 20px rgba(184, 134, 11, 0.5);
 }
 
 .glass-card {
@@ -181,7 +180,6 @@ h1, h2, h3, .author-name {
     text-align: center;
     margin-bottom: 2rem;
     color: #dfba6b;
-    text-shadow: 0 0 10px rgba(223, 186, 107, 0.8), 0 0 20px rgba(184, 134, 11, 0.6), 0 0 35px rgba(218, 165, 32, 0.4);
     letter-spacing: 1px;
 }
 
@@ -358,7 +356,6 @@ h1, h2, h3, .author-name {
     font-family: var(--font-heading);
     font-size: 3.2rem;
     color: #dfba6b;
-    text-shadow: 0 0 15px rgba(223, 186, 107, 0.8), 0 0 30px rgba(218, 165, 32, 0.6), 0 0 45px rgba(184, 134, 11, 0.4);
     margin: 0 0 5px;
     line-height: 1.1;
 }
