@@ -1,4 +1,4 @@
-﻿:root {
+:root {
     /* Fundo Escuro Quente (Mantido conforme aprovação) */
     --bg-dark: #120b08;
     --bg-darker: #0d0806;
@@ -1211,5 +1211,6 @@ html {
     100% { background-position: 400px 400px, 425px 425px; }
 }
 
-
-
+.chakra-divider {
+    mix-blend-mode: screen;
+}
