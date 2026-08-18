@@ -86,7 +86,7 @@ strong, b {
     align-items: center;
     padding: 20px 0;
     margin: 20px 0;
-    mix-blend-mode: screen;
+    mix-blend-mode: lighten;
 }
 
 .chakra-divider {
