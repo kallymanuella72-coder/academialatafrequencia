@@ -145,7 +145,6 @@ h1, h2, h3, .author-name {
 
 .gold-text {
     color: #dfba6b;
-    text-shadow: 0 0 10px rgba(223, 186, 107, 0.7), 0 0 20px rgba(184, 134, 11, 0.5);
 }
 
 .glass-card {
@@ -181,7 +180,6 @@ h1, h2, h3, .author-name {
     text-align: center;
     margin-bottom: 2rem;
     color: #dfba6b;
-    text-shadow: 0 0 12px rgba(223, 186, 107, 0.8), 0 0 25px rgba(184, 134, 11, 0.5);
     letter-spacing: 1px;
 }
 
@@ -372,10 +370,8 @@ h1, h2, h3, .author-name {
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
+    -webkit-text-fill-color: transparent;
     animation: shine 4s linear infinite;
-    
-    /* Brilho ao redor (glow) */
-    filter: drop-shadow(0 0 12px rgba(223, 186, 107, 0.6)) drop-shadow(0 0 25px rgba(184, 134, 11, 0.3));
 }
 
 .author {
