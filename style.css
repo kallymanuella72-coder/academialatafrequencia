@@ -1136,8 +1136,7 @@ footer {
     
     /* Carousel Fixes for Mobile */
     .carousel-btn { width: 30px; height: 30px; font-size: 1rem; }
-    .testimonial-img { max-width: 250px !important; margin: 0 auto; display: block; }
-    .carousel-btn { width: 30px; height: 30px; }
+    .carousel-track-wrapper { max-width: 260px; margin: 0 auto; }
     .carousel-track-container { width: 80%; margin: 0 auto; }
     
     /* Mobile Carousel for Deliverables */
